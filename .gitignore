@@ -1,0 +1,21 @@
+# .env file
+.env
+/db_backup
+# Binnen wp-content, negeer de standaard mappen/bestanden
+/wp-content/*
+
+# 1. Herstel de 'themes' map, MAAR negeer de standaard WP themes
+/!wp-content/themes/
+/wp-content/themes/*
+/!wp-content/themes/jj_theme/
+
+# 2. Herstel de 'plugins' map, MAAR negeer alle plugins behalve jouw custom plugins
+/!wp-content/plugins/
+/wp-content/plugins/*
+/!wp-content/plugins/jj_plugin/
+
+# 3. Media uploads, negeer altijd
+/wp-content/uploads/
+
+# 4. Cache files, negeer altijd
+/wp-content/cache/
