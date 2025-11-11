@@ -1,6 +1,13 @@
 # .env file
 .env
-/db_backup
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Binnen wp-content, negeer de standaard mappen/bestanden
 /wp-content/*
 
