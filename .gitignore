@@ -15,6 +15,7 @@ Thumbs.db
 !/wp-content/themes/
 /wp-content/themes/*
 !/wp-content/themes/jj_theme/
+!/wp-content/themes/twentytwentyfive/
 
 # 2. Herstel de 'plugins' map, MAAR negeer alle plugins behalve jouw custom plugins
 !/wp-content/plugins/
