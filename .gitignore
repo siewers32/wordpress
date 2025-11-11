@@ -20,7 +20,7 @@ Thumbs.db
 # 2. Herstel de 'plugins' map, MAAR negeer alle plugins behalve jouw custom plugins
 !/wp-content/plugins/
 /wp-content/plugins/*
-!/wp-content/plugins/jj_plugin/
+!/wp-content/plugins/hello_world.php
 
 # 3. Media uploads, negeer altijd
 /wp-content/uploads/
