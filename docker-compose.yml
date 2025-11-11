@@ -23,6 +23,7 @@ services:
     volumes:
       - mariadb_data:/var/lib/mysql
       - ./db_init/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./restore:/restore
     ports:
       - "3306:3306"
   
